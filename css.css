@@ -1,0 +1,44 @@
+:root {
+    --outline-radius: 5px;
+}
+
+body {
+    background:#BFBEAA;
+}
+.white {
+    color: white;
+}
+
+.text-outline-black {
+    text-shadow: 
+    #000 0px 0px var(--outline-radius),
+    #000 0px 0px var(--outline-radius),
+    #000 0px 0px var(--outline-radius),
+    #000 0px 0px var(--outline-radius),
+    #000 0px 0px var(--outline-radius),
+    #000 0px 0px var(--outline-radius);
+    -webkit-font-smoothing: antialiased;
+}
+
+.fs-10 { font-size: 10px; }
+.fs-12 { font-size: 12px; }
+.fs-14 { font-size: 14px; }
+.fs-16 { font-size: 16px; }
+.fs-18 { font-size: 18px; }
+.fs-20 { font-size: 20px; }
+
+.fredoka-one {
+    font-family: 'Fredoka One';
+}
+.caveat {
+    font-family: 'Caveat';
+}
+.center {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
