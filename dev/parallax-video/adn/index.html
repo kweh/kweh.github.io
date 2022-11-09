@@ -22,21 +22,3 @@
 
 <div style="height: 800px; margin: 1rem; background: #ddd"></div>
 <div style="height: 850px; margin: 1rem; background: #ddd"></div>
-<!-- 
-<script>
-    const c = document.getElementById("container");
-    const v = document.getElementById("vid");
-    const ch = c.clientHeight;
-    const vh = v.clientHeight;
-    const th = vh - ch;
-    document.addEventListener("scroll", () => {
-        const y = c.getBoundingClientRect().y;
-        const wh = window.innerHeight;
-        console.log(y, wh - ch);
-        if (y >= 0 - wh && y <= wh) {
-            const perc = y / (wh - ch);
-            const np = th * perc;
-            v.style.bottom = np + "px";
-        }
-    });
-</script> -->
